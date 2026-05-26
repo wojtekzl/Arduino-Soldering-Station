@@ -9,6 +9,8 @@
 <a name="polska-wersja"></a>
 ## Polska Wersja
 
+### [Zobacz prezentację wideo na YouTube](https://youtu.be/utnwF4OAL98)
+
 ### O Projekcie
 Zaawansowana stacja lutownicza DIY oparta na mikrokontrolerze Arduino Nano. Projekt łączy precyzyjne sterowanie cyfrowe z ergonomiczną obudową 3D. System wykorzystuje termoparę typu K (MAX6675) oraz tranzystor MOSFET do sterowania grzałką 12V.
 
