@@ -1,6 +1,6 @@
 # Arduino MAX6675 Soldering Station
 
-[English version below](#english-version) | [Przejdź do wersji polskiej](#polska-wersja)
+[Przejdź do wersji polskiej](#polska-wersja) | [English version below](#english-version)
 
 ---
 ![Main Photo](Media/front_with_soldering_iron.jpg)
