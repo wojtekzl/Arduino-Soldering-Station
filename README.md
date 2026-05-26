@@ -31,10 +31,11 @@ Pełny schemat połączeń znajduje się w pliku `Hardware/diagram.png`.
 ### Inspiracje
 Projekt powstał inspirując się projektem z kanału **[Zrobisz to SAM](https://www.youtube.com/@zrobisz_to_sam_)**. 
 W mojej wersji wprowadziłem następujące zmiany i usprawnienia:
-1. Pełna implementacja algorytmu PID dla lepszej stabilności cieplnej.
-2. Dodanie filtracji cyfrowej (EMA) dla sygnału z potencjometru.
-3. Projektowanie od podstaw obudowy 3D razem z ergonomiczną podpórką.
-4. Usunięcie zbędnych linijek kodu.
+1. Pełna implementacja algorytmu PID dla lepszej stabilności cieplnej - wyeliminowanie przegrzewania się zasilacza.
+2. Zmiana sterowania z encodera na potencjometr (szybsza nastawa) oraz dodanie filtracji cyfrowej (EMA) dla sygnału z potencjometru.
+3. Dodanie fizycznego przycisku trybu Heat/Sleep dla błyskawicznej zmiany stanu pracy
+4. Projektowanie od podstaw obudowy 3D razem z ergonomiczną podpórką.
+5. Usunięcie zbędnych linijek kodu.
 
 ### UWAGA
 Projekt dotyczy urządzeń pracujących z wysoką temperaturą oraz napięciem sieciowym. Nie ponoszę odpowiedzialności za jakiekolwiek szkody materialne, uszczerbek na zdrowiu lub inne straty powstałe w wyniku budowy lub użytkowania tego urządzenia. Wszystko robisz na własną odpowiedzialność. Pamiętaj o zachowaniu zasad BHP!
@@ -66,10 +67,11 @@ The full wiring diagram is available in the `Hardware/diagram.png` file.
 ### Inspirations
 This project was inspired by the project from the **[Zrobisz to SAM](https://www.youtube.com/@zrobisz_to_sam_)** YouTube channel.
 In my version, I have introduced the following improvements:
-1. Full PID algorithm implementation for superior thermal stability.
-2. Added digital filtering (EMA) for the potentiometer input signal.
-3. From-scratch 3D design of the enclosure, including an ergonomic iron stand.
-4. Removed unnecessary lines of code for better optimization.
+1. Full implementation of the PID algorithm for improved thermal stability – eliminating power supply overheating.
+2. Switching the control from an encoder to a potentiometer (faster adjustment) and adding digital filtering (EMA) for the potentiometer signal.
+3. Adding a physical Heat/Sleep mode button for instant operating mode switching.
+4. Designing a 3D enclosure from scratch, including an ergonomic support.
+5. Removing unnecessary lines of code.
 
 ### DISCLAIMER
 This project involves high temperatures and mains voltage. I am not responsible for any property damage, personal injury, or other losses resulting from the construction or use of this device. You build and use it at your own risk. Always follow safety guidelines!
