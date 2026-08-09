@@ -30,6 +30,11 @@ Pełny schemat połączeń znajduje się w pliku `Hardware/diagram.png`.
 * `/3D Models/` - Kompletny projekt obudowy w formacie `.3mf`.
 * `/Media/` - Dokumentacja fotograficzna gotowego urządzenia.
 
+### 🖨️ Obudowa / Model 3D
+
+Projekty obudowy oraz elementów drukowanych 3D są dostępne bezpłatnie do pobrania na platformie MakerWorld:
+👉 **[Pobierz pliki do druku 3D z MakerWorld](https://makerworld.com/pl/models/3045168-arduino-soldering-station#profileId-3424784)**
+
 ### 🛠️ Lista części (Bill of Materials)
 
 Poniżej znajduje się pełna lista komponentów użytych w projekcie wraz z linkami do zakupu. 
@@ -101,6 +106,11 @@ The full wiring diagram is available in the `Hardware/diagram.png` file.
 * `/Hardware/` - Circuit diagram (`diagram.png`) with pinout configuration.
 * `/3D Models/` - Complete 3D enclosure project in `.3mf` format.
 * `/Media/` - Photographic documentation of the finished device.
+
+### 🖨️ Enclosure / 3D Model
+
+The enclosure designs and 3D printable files are available for free on MakerWorld:
+👉 **[Download 3D Printable Files on MakerWorld](https://makerworld.com/pl/models/3045168-arduino-soldering-station#profileId-3424784)**
 
 ### 🛠️ Bill of Materials (BOM)
 
