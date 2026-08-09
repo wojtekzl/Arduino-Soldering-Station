@@ -30,6 +30,42 @@ Pełny schemat połączeń znajduje się w pliku `Hardware/diagram.png`.
 * `/3D Models/` - Kompletny projekt obudowy w formacie `.3mf`.
 * `/Media/` - Dokumentacja fotograficzna gotowego urządzenia.
 
+### 🛠️ Lista części (Bill of Materials)
+
+Poniżej znajduje się pełna lista komponentów użytych w projekcie wraz z linkami do zakupu. 
+
+| Element | Specyfikacja / Uwagi | Link |
+| :--- | :--- | :--- |
+| **Kolba lutownicza C245** | Rękojeść + zestaw 4 grotów | [Link do sklepu](https://pl.aliexpress.com/item/1005007374283070.html) |
+| **Stojak / Uchwyt lutowniczy** | Potrzebny do pozyskania sprężyny | [Link do sklepu](https://pl.aliexpress.com/item/1005007594381430.html) |
+| **Moduł MAX6675** | Kontroler termopary (1 szt.) | [Link do sklepu](https://pl.aliexpress.com/item/1005002767849346.html) |
+| **Zasilacz 12V 5A 60W** | Zasilanie główne | [Link do sklepu](https://pl.aliexpress.com/item/1005010210930161.html) |
+| **Arduino Nano** | Mikrokontroler sterujący | [Link do sklepu](https://pl.aliexpress.com/item/1005007274954319.html) |
+| **Wyświetlacz LCD 16x2 I2C** | Ekran z konwerterem magistrali I2C | [Link do sklepu](https://pl.aliexpress.com/item/1005012115973038.html) |
+| **Przetwornica LM2596** | Moduł obniżający napięcie (Step-Down) | [Link do sklepu](https://pl.aliexpress.com/item/1005008183314384.html) |
+| **Tranzystor MOSFET IRF9540N** | P-Channel | [Link do sklepu](https://pl.aliexpress.com/item/1005005195045769.html) |
+| **Radiator tranzystora** | Dedykowe chłodzenie MOSFET | [Link do sklepu](https://pl.aliexpress.com/item/1005005945661635.html) |
+| **Tranzystor BC548** | Bipolarny NPN | [Link do sklepu](https://pl.aliexpress.com/item/1005012273890651.html) |
+| **Potencjometr 10 kΩ** | Liniowy (do regulacji) | [Link do sklepu](https://pl.aliexpress.com/item/1005006982762711.html) |
+| **Zestaw rezystorów** | Wymagane wartości: 10 kΩ oraz 470 Ω | [Link do sklepu](https://pl.aliexpress.com/item/1005011772534173.html) |
+| **Przycisk R13-507** | Chwilowy (microswitch) | [Link do sklepu](https://pl.aliexpress.com/item/10000274959292.html) |
+| **Przełącznik KCD4** | Dwubiegunowy 16A 250V | [Link do sklepu](https://pl.aliexpress.com/item/4000138252026.html) |
+| **Gniazdo zasilania AC-14-F6** | Zintegrowane gniazdo sieciowe | [Link do sklepu](https://pl.aliexpress.com/item/1005009372189680.html) |
+| **Złącze GX12 5-pin** | Komplet męski + żeński | [Link do sklepu](https://pl.aliexpress.com/item/1005009246738180.html) |
+| **Kabel zasilający** | Długość według własnych potrzeb | [Link do sklepu](https://pl.aliexpress.com/item/1005007175847704.html) |
+| **Przewody zasilające** | Grubsze przewody dedykowane pod 12V 5A | [Link do sklepu](https://pl.aliexpress.com/item/1005012368787619.html) |
+| **Przewody Arduino** | Męsko-żeńskie (np. pod ekran LCD) | [Link do sklepu](https://pl.aliexpress.com/item/1005006216103587.html) |
+| **Przewody stykowe** | Zestaw zworek (140 szt.) | [Link do sklepu](https://pl.aliexpress.com/item/1005007561943443.html) |
+| **Płytka stykowa** | Prototypowa (zalecana do testów) | [Link do sklepu](https://pl.aliexpress.com/item/1005008642599597.html) |
+| **Płytka uniwersalna PCB** | 9x15 cm (do końcowego montażu) | [Link do sklepu](https://pl.aliexpress.com/item/1005012558186855.html) |
+| **Listwa pinów (Goldpin)** | Prosta 1x40 pin | [Link do sklepu](https://pl.aliexpress.com/item/1005009884599370.html) |
+| **Wkładki gwintowane** | Mosiężne M3 × 5 × 4.2 mm | [Link do sklepu](https://www.temu.com/pl/goods.html?goods_id=601099714384815) |
+| **Śruby M5 × 8 mm** | Z łbem krzyżakowym Philips (20 szt.) | [Link do sklepu](https://pl.aliexpress.com/item/1005012149506637.html) |
+| **Nakrętki M5** | Standardowe metryczne | [Link do sklepu](https://pl.aliexpress.com/item/1005011858105441.html) |
+| **Gąbka czyścikowa** | Do czyszczenia grotów na gorąco | [Link do sklepu](https://pl.aliexpress.com/item/1005012432291048.html) |
+
+> 💳 **Orientacyjny koszt całkowity:** **~420 PLN** *(podana kwota obejmuje same komponenty — bez podatków, cła oraz kosztów wysyłki)*.
+
 ### Inspiracje
 Projekt powstał inspirując się projektem z kanału **[Zrobisz to SAM](https://www.youtube.com/@zrobisz_to_sam_)**. 
 W mojej wersji wprowadziłem następujące zmiany i usprawnienia:
@@ -65,6 +101,42 @@ The full wiring diagram is available in the `Hardware/diagram.png` file.
 * `/Hardware/` - Circuit diagram (`diagram.png`) with pinout configuration.
 * `/3D Models/` - Complete 3D enclosure project in `.3mf` format.
 * `/Media/` - Photographic documentation of the finished device.
+
+### 🛠️ Bill of Materials (BOM)
+
+Below is the complete list of components used in the project, along with purchase links.
+
+| Component | Specification / Notes | Link |
+| :--- | :--- | :--- |
+| **C245 Soldering Handle** | Handle + set of 4 tips | [Store Link](https://pl.aliexpress.com/item/1005007374283070.html) |
+| **Soldering Stand** | Used as a source for the spring | [Store Link](https://pl.aliexpress.com/item/1005007594381430.html) |
+| **MAX6675 Module** | Thermocouple IC (1 pcs) | [Store Link](https://pl.aliexpress.com/item/1005002767849346.html) |
+| **Power Supply 12V 5A 60W** | Main power supply | [Store Link](https://pl.aliexpress.com/item/1005010210930161.html) |
+| **Arduino Nano** | Microcontroller board | [Store Link](https://pl.aliexpress.com/item/1005007274954319.html) |
+| **16x2 I2C LCD Display** | Screen with I2C module | [Store Link](https://pl.aliexpress.com/item/1005012115973038.html) |
+| **LM2596 Converter** | Step-Down module | [Store Link](https://pl.aliexpress.com/item/1005008183314384.html) |
+| **IRF9540N MOSFET** | P-Channel Transistor | [Store Link](https://pl.aliexpress.com/item/1005005195045769.html) |
+| **MOSFET Heatsink** | Cooling for the transistor | [Store Link](https://pl.aliexpress.com/item/1005005945661635.html) |
+| **BC548 Transistor** | Bipolar NPN | [Store Link](https://pl.aliexpress.com/item/1005012273890651.html) |
+| **10kΩ Potentiometer** | Linear (for adjustment) | [Store Link](https://pl.aliexpress.com/item/1005006982762711.html) |
+| **Resistor Kit** | Required values: 10kΩ & 470Ω | [Store Link](https://pl.aliexpress.com/item/1005011772534173.html) |
+| **R13-507 Push Button** | Momentary switch | [Store Link](https://pl.aliexpress.com/item/10000274959292.html) |
+| **KCD4 Power Switch** | Double Pole 16A 250V | [Store Link](https://pl.aliexpress.com/item/4000138252026.html) |
+| **AC-14-F6 Power Socket** | Integrated AC power inlet | [Store Link](https://pl.aliexpress.com/item/1005009372189680.html) |
+| **GX12 5-Pin Connector** | Male + Female pair | [Store Link](https://pl.aliexpress.com/item/1005009246738180.html) |
+| **AC Power Cable** | Length based on personal preference | [Store Link](https://pl.aliexpress.com/item/1005007175847704.html) |
+| **12V 5A Power Wires** | Thicker gauge wires for high current | [Store Link](https://pl.aliexpress.com/item/1005012368787619.html) |
+| **Arduino Wires** | Male-to-Female jumper wires | [Store Link](https://pl.aliexpress.com/item/1005006216103587.html) |
+| **Breadboard Jumpers** | Jumper wire set (140 pcs) | [Store Link](https://pl.aliexpress.com/item/1005007561943443.html) |
+| **Breadboard** | Prototype board (recommended for testing) | [Store Link](https://pl.aliexpress.com/item/1005008642599597.html) |
+| **Universal PCB** | 9x15 cm (for final assembly) | [Store Link](https://pl.aliexpress.com/item/1005012558186855.html) |
+| **Pin Headers (Goldpins)** | Straight 1x40 pin | [Store Link](https://pl.aliexpress.com/item/1005009884599370.html) |
+| **Threaded Inserts** | Brass M3 × 5 × 4.2 mm | [Store Link](https://www.temu.com/pl/goods.html?goods_id=601099714384815) |
+| **M5 × 8 mm Screws** | Philips head (20 pcs) | [Store Link](https://pl.aliexpress.com/item/1005012149506637.html) |
+| **M5 Nuts** | Standard metric nuts | [Store Link](https://pl.aliexpress.com/item/1005011858105441.html) |
+| **Cleaning Sponge** | Tip cleaning sponge | [Store Link](https://pl.aliexpress.com/item/1005012432291048.html) |
+
+> 💳 **Estimated Total Cost:** **~420 PLN** (~105 USD) *(excludes shipping costs, taxes, or custom duties)*.
 
 ### Inspirations
 This project was inspired by the project from the **[Zrobisz to SAM](https://www.youtube.com/@zrobisz_to_sam_)** YouTube channel.
